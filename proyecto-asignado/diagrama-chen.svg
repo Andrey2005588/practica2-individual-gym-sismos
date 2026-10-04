@@ -1,0 +1,568 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1141pt" height="1037pt" viewBox="0.00 0.00 1141.00 1037.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1033)">
+<title>ER_Sismos</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1033 1137.47,-1033 1137.47,4 -4,4"/>
+<!-- EventoSismico -->
+<g id="node1" class="node">
+<title>EventoSismico</title>
+<polygon fill="lightblue" stroke="black" points="82.14,-205 0,-205 0,-169 82.14,-169 82.14,-205"/>
+<text xml:space="preserve" text-anchor="middle" x="41.07" y="-184" font-family="Arial" font-size="10.00">EventoSismico</text>
+</g>
+<!-- Esp -->
+<g id="node9" class="node">
+<title>Esp</title>
+<polygon fill="none" stroke="black" points="155.1,-207 119.14,-177 191.06,-177 155.1,-207"/>
+<text xml:space="preserve" text-anchor="middle" x="155.1" y="-184" font-family="Arial" font-size="10.00">d,p</text>
+</g>
+<!-- EventoSismico&#45;&gt;Esp -->
+<g id="edge1" class="edge">
+<title>EventoSismico-&gt;Esp</title>
+<path fill="none" stroke="black" d="M82.51,-187C94.52,-187 107.55,-187 119.17,-187"/>
+<polygon fill="black" stroke="black" points="119.15,-190.5 129.15,-187 119.15,-183.5 119.15,-190.5"/>
+</g>
+<!-- Sismo -->
+<g id="node2" class="node">
+<title>Sismo</title>
+<polygon fill="lightblue" stroke="black" points="282.06,-560 228.06,-560 228.06,-524 282.06,-524 282.06,-560"/>
+<text xml:space="preserve" text-anchor="middle" x="255.06" y="-539" font-family="Arial" font-size="10.00">Sismo</text>
+</g>
+<!-- S_id -->
+<g id="node10" class="node">
+<title>S_id</title>
+<ellipse fill="none" stroke="black" cx="407.6" cy="-758" rx="33.35" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="407.6" y="-755" font-family="Arial" font-size="10.00">id_sismo</text>
+</g>
+<!-- Sismo&#45;&gt;S_id -->
+<g id="edge4" class="edge">
+<title>Sismo-&gt;S_id</title>
+<path fill="none" stroke="black" d="M258.5,-560.36C264.5,-598.06 283.48,-684.56 335.84,-731 344.23,-738.45 354.9,-743.93 365.38,-747.93"/>
+<polygon fill="black" stroke="black" points="364.12,-751.19 374.71,-751.09 366.37,-744.57 364.12,-751.19"/>
+</g>
+<!-- S_prof -->
+<g id="node11" class="node">
+<title>S_prof</title>
+<ellipse fill="none" stroke="black" cx="407.6" cy="-704" rx="41.39" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="407.6" y="-701" font-family="Arial" font-size="10.00">profundidad</text>
+</g>
+<!-- Sismo&#45;&gt;S_prof -->
+<g id="edge5" class="edge">
+<title>Sismo-&gt;S_prof</title>
+<path fill="none" stroke="black" d="M262.36,-560.36C273.09,-589.09 297.55,-644.7 335.84,-677 342.91,-682.97 351.44,-687.69 360.1,-691.41"/>
+<polygon fill="black" stroke="black" points="358.63,-694.59 369.21,-694.92 361.14,-688.06 358.63,-694.59"/>
+</g>
+<!-- S_ref -->
+<g id="node12" class="node">
+<title>S_ref</title>
+<ellipse fill="none" stroke="black" cx="407.6" cy="-650" rx="36.36" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="407.6" y="-647" font-family="Arial" font-size="10.00">referencia</text>
+</g>
+<!-- Sismo&#45;&gt;S_ref -->
+<g id="edge6" class="edge">
+<title>Sismo-&gt;S_ref</title>
+<path fill="none" stroke="black" d="M270.15,-560.34C284.85,-578.4 309.4,-605.73 335.84,-623 344.65,-628.76 354.87,-633.55 364.75,-637.43"/>
+<polygon fill="black" stroke="black" points="363.25,-640.61 373.85,-640.75 365.66,-634.03 363.25,-640.61"/>
+</g>
+<!-- S_lat -->
+<g id="node13" class="node">
+<title>S_lat</title>
+<ellipse fill="none" stroke="black" cx="407.6" cy="-596" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="407.6" y="-593" font-family="Arial" font-size="10.00">latitud</text>
+</g>
+<!-- Sismo&#45;&gt;S_lat -->
+<g id="edge7" class="edge">
+<title>Sismo-&gt;S_lat</title>
+<path fill="none" stroke="black" d="M282.28,-551.41C307.31,-560.38 345.14,-573.96 372.5,-583.77"/>
+<polygon fill="black" stroke="black" points="371.13,-587 381.73,-587.08 373.49,-580.41 371.13,-587"/>
+</g>
+<!-- S_lon -->
+<g id="node14" class="node">
+<title>S_lon</title>
+<ellipse fill="none" stroke="black" cx="407.6" cy="-542" rx="30.69" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="407.6" y="-539" font-family="Arial" font-size="10.00">longitud</text>
+</g>
+<!-- Sismo&#45;&gt;S_lon -->
+<g id="edge8" class="edge">
+<title>Sismo-&gt;S_lon</title>
+<path fill="none" stroke="black" d="M282.28,-542C305.18,-542 338.8,-542 365.3,-542"/>
+<polygon fill="black" stroke="black" points="365.03,-545.5 375.03,-542 365.03,-538.5 365.03,-545.5"/>
+</g>
+<!-- R_ocurre -->
+<g id="node39" class="node">
+<title>R_ocurre</title>
+<polygon fill="none" stroke="black" points="407.6,-506 355.7,-488 407.6,-470 459.5,-488 407.6,-506"/>
+<text xml:space="preserve" text-anchor="middle" x="407.6" y="-485" font-family="Arial" font-size="10.00">ocurre_en</text>
+</g>
+<!-- Sismo&#45;&gt;R_ocurre -->
+<g id="edge33" class="edge">
+<title>Sismo-&gt;R_ocurre</title>
+<path fill="none" stroke="black" d="M282.28,-532.59C306.72,-523.83 343.36,-510.68 370.54,-500.93"/>
+<polygon fill="black" stroke="black" points="371.52,-504.3 379.76,-497.63 369.16,-497.71 371.52,-504.3"/>
+<text xml:space="preserve" text-anchor="middle" x="308.95" y="-528.44" font-family="Arial" font-size="8.00">(1,N)</text>
+</g>
+<!-- R_registra -->
+<g id="node40" class="node">
+<title>R_registra</title>
+<polygon fill="none" stroke="black" points="407.6,-452 341.99,-434 407.6,-416 473.21,-434 407.6,-452"/>
+<text xml:space="preserve" text-anchor="middle" x="407.6" y="-431" font-family="Arial" font-size="10.00">registrado_en</text>
+</g>
+<!-- Sismo&#45;&gt;R_registra -->
+<g id="edge35" class="edge">
+<title>Sismo-&gt;R_registra</title>
+<path fill="none" stroke="black" d="M270.15,-523.66C284.85,-505.6 309.4,-478.27 335.84,-461 344.24,-455.51 353.91,-450.9 363.36,-447.12"/>
+<polygon fill="black" stroke="black" points="364.28,-450.52 372.43,-443.75 361.84,-443.96 364.28,-450.52"/>
+<text xml:space="preserve" text-anchor="middle" x="308.95" y="-490.93" font-family="Arial" font-size="8.00">(1,N)</text>
+</g>
+<!-- R_tiene -->
+<g id="node41" class="node">
+<title>R_tiene</title>
+<polygon fill="none" stroke="black" points="407.6,-378 335.84,-360 407.6,-342 479.36,-360 407.6,-378"/>
+<text xml:space="preserve" text-anchor="middle" x="407.6" y="-357" font-family="Arial" font-size="10.00">tiene_magnitud</text>
+</g>
+<!-- Sismo&#45;&gt;R_tiene -->
+<g id="edge37" class="edge">
+<title>Sismo-&gt;R_tiene</title>
+<path fill="none" stroke="black" d="M263.48,-523.52C275.39,-495.62 301.03,-442.26 335.84,-407 346.79,-395.9 360.77,-385.95 373.4,-378.1"/>
+<polygon fill="black" stroke="black" points="375.08,-381.18 381.87,-373.04 371.49,-375.17 375.08,-381.18"/>
+<text xml:space="preserve" text-anchor="middle" x="308.95" y="-453.22" font-family="Arial" font-size="8.00">(1,1)</text>
+</g>
+<!-- R_genera -->
+<g id="node44" class="node">
+<title>R_genera</title>
+<polygon fill="none" stroke="black" points="407.6,-283 367.51,-265 407.6,-247 447.69,-265 407.6,-283"/>
+<text xml:space="preserve" text-anchor="middle" x="407.6" y="-262" font-family="Arial" font-size="10.00">genera</text>
+</g>
+<!-- Sismo&#45;&gt;R_genera -->
+<g id="edge43" class="edge">
+<title>Sismo-&gt;R_genera</title>
+<path fill="none" stroke="black" d="M259.95,-523.55C268.65,-485.31 292.42,-395.76 335.84,-333 348.92,-314.09 367.88,-296.21 382.88,-283.54"/>
+<polygon fill="black" stroke="black" points="384.95,-286.37 390.46,-277.32 380.51,-280.96 384.95,-286.37"/>
+<text xml:space="preserve" text-anchor="middle" x="308.95" y="-399.74" font-family="Arial" font-size="8.00">(0,N)</text>
+</g>
+<!-- R_afecta -->
+<g id="node45" class="node">
+<title>R_afecta</title>
+<polygon fill="none" stroke="black" points="534.13,-936 497.36,-918 534.13,-900 570.91,-918 534.13,-936"/>
+<text xml:space="preserve" text-anchor="middle" x="534.13" y="-915" font-family="Arial" font-size="10.00">afecta</text>
+</g>
+<!-- Sismo&#45;&gt;R_afecta -->
+<g id="edge45" class="edge">
+<title>Sismo-&gt;R_afecta</title>
+<path fill="none" stroke="black" d="M257.24,-560.24C261,-604.2 276.25,-717.37 335.84,-785 384.84,-840.63 462.1,-883.62 503.92,-904.36"/>
+<polygon fill="black" stroke="black" points="502.35,-907.49 512.87,-908.72 505.41,-901.19 502.35,-907.49"/>
+<text xml:space="preserve" text-anchor="middle" x="308.95" y="-759.87" font-family="Arial" font-size="8.00">(1,1)</text>
+</g>
+<!-- Replica -->
+<g id="node3" class="node">
+<title>Replica</title>
+<polygon fill="lightyellow" stroke="black" points="646.91,-144 592.91,-144 592.91,-108 646.91,-108 646.91,-144"/>
+<polygon fill="none" stroke="black" points="650.91,-148 588.91,-148 588.91,-104 650.91,-104 650.91,-148"/>
+<text xml:space="preserve" text-anchor="middle" x="619.91" y="-123" font-family="Arial" font-size="10.00">Replica</text>
+</g>
+<!-- R_id -->
+<g id="node15" class="node">
+<title>R_id</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-126" rx="35.36" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-123" font-family="Arial" font-size="10.00">id_replica</text>
+</g>
+<!-- Replica&#45;&gt;R_id -->
+<g id="edge9" class="edge">
+<title>Replica-&gt;R_id</title>
+<path fill="none" stroke="black" d="M651.07,-126C673.78,-126 705.32,-126 731.19,-126"/>
+<polygon fill="black" stroke="black" points="731.12,-129.5 741.12,-126 731.12,-122.5 731.12,-129.5"/>
+</g>
+<!-- R_mag -->
+<g id="node16" class="node">
+<title>R_mag</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-72" rx="34.36" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-69" font-family="Arial" font-size="10.00">magnitud</text>
+</g>
+<!-- Replica&#45;&gt;R_mag -->
+<g id="edge10" class="edge">
+<title>Replica-&gt;R_mag</title>
+<path fill="none" stroke="black" d="M651.07,-115.59C675.88,-107.02 711.23,-94.82 738.22,-85.5"/>
+<polygon fill="black" stroke="black" points="739.11,-88.9 747.42,-82.33 736.82,-82.28 739.11,-88.9"/>
+</g>
+<!-- R_fecha -->
+<g id="node17" class="node">
+<title>R_fecha</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-18" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-15" font-family="Arial" font-size="10.00">fecha</text>
+</g>
+<!-- Replica&#45;&gt;R_fecha -->
+<g id="edge11" class="edge">
+<title>Replica-&gt;R_fecha</title>
+<path fill="none" stroke="black" d="M639.21,-103.8C654.98,-85.87 679.18,-61.07 704.69,-45 716.02,-37.86 729.52,-32.19 741.79,-27.93"/>
+<polygon fill="black" stroke="black" points="742.75,-31.3 751.18,-24.88 740.59,-24.64 742.75,-31.3"/>
+</g>
+<!-- Ubicacion -->
+<g id="node4" class="node">
+<title>Ubicacion</title>
+<polygon fill="lightgreen" stroke="black" points="649.86,-796 589.95,-796 589.95,-760 649.86,-760 649.86,-796"/>
+<text xml:space="preserve" text-anchor="middle" x="619.91" y="-775" font-family="Arial" font-size="10.00">Ubicacion</text>
+</g>
+<!-- U_id -->
+<g id="node18" class="node">
+<title>U_id</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-944" rx="43.05" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-941" font-family="Arial" font-size="10.00">id_ubicacion</text>
+</g>
+<!-- Ubicacion&#45;&gt;U_id -->
+<g id="edge12" class="edge">
+<title>Ubicacion-&gt;U_id</title>
+<path fill="none" stroke="black" d="M627.41,-796.47C638.67,-825.96 664.55,-883.74 704.69,-917 711.9,-922.98 720.57,-927.71 729.37,-931.42"/>
+<polygon fill="black" stroke="black" points="728.07,-934.67 738.66,-934.92 730.54,-928.12 728.07,-934.67"/>
+</g>
+<!-- U_ent -->
+<g id="node19" class="node">
+<title>U_ent</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-890" rx="29.35" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-887" font-family="Arial" font-size="10.00">entidad</text>
+</g>
+<!-- Ubicacion&#45;&gt;U_ent -->
+<g id="edge13" class="edge">
+<title>Ubicacion-&gt;U_ent</title>
+<path fill="none" stroke="black" d="M634.82,-796.24C650.12,-815.21 676.33,-844.65 704.69,-863 715.39,-869.92 728.12,-875.42 739.91,-879.6"/>
+<polygon fill="black" stroke="black" points="738.8,-882.92 749.39,-882.73 740.99,-876.27 738.8,-882.92"/>
+</g>
+<!-- U_nom -->
+<g id="node20" class="node">
+<title>U_nom</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-836" rx="53.08" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-833" font-family="Arial" font-size="10.00">nombre_entidad</text>
+</g>
+<!-- Ubicacion&#45;&gt;U_nom -->
+<g id="edge14" class="edge">
+<title>Ubicacion-&gt;U_nom</title>
+<path fill="none" stroke="black" d="M650.33,-788.91C672.94,-797.29 704.62,-809.04 730.67,-818.7"/>
+<polygon fill="black" stroke="black" points="729.44,-821.97 740.04,-822.17 731.88,-815.41 729.44,-821.97"/>
+</g>
+<!-- U_coords -->
+<g id="node21" class="node">
+<title>U_coords</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-778" rx="44.39" ry="18"/>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-778" rx="48.39" ry="22"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-775" font-family="Arial" font-size="10.00">coordenadas</text>
+</g>
+<!-- Ubicacion&#45;&gt;U_coords -->
+<g id="edge15" class="edge">
+<title>Ubicacion-&gt;U_coords</title>
+<path fill="none" stroke="black" d="M650.33,-778C669.41,-778 694.94,-778 718.1,-778"/>
+<polygon fill="black" stroke="black" points="718.09,-781.5 728.09,-778 718.09,-774.5 718.09,-781.5"/>
+</g>
+<!-- R_habita -->
+<g id="node42" class="node">
+<title>R_habita</title>
+<polygon fill="none" stroke="black" points="778.34,-738 741.56,-720 778.34,-702 815.11,-720 778.34,-738"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-717" font-family="Arial" font-size="10.00">habita</text>
+</g>
+<!-- Ubicacion&#45;&gt;R_habita -->
+<g id="edge39" class="edge">
+<title>Ubicacion-&gt;R_habita</title>
+<path fill="none" stroke="black" d="M650.33,-767.09C677.56,-757 717.91,-742.03 745.79,-731.7"/>
+<polygon fill="black" stroke="black" points="746.96,-734.99 755.12,-728.24 744.53,-728.43 746.96,-734.99"/>
+<text xml:space="preserve" text-anchor="middle" x="677.8" y="-761.64" font-family="Arial" font-size="8.00">(1,N)</text>
+</g>
+<!-- R_economia -->
+<g id="node43" class="node">
+<title>R_economia</title>
+<polygon fill="none" stroke="black" points="778.34,-684 704.69,-666 778.34,-648 851.99,-666 778.34,-684"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-663" font-family="Arial" font-size="10.00">tiene_economia</text>
+</g>
+<!-- Ubicacion&#45;&gt;R_economia -->
+<g id="edge41" class="edge">
+<title>Ubicacion-&gt;R_economia</title>
+<path fill="none" stroke="black" d="M634.82,-759.76C650.12,-740.79 676.33,-711.35 704.69,-693 712.89,-687.69 722.28,-683.23 731.53,-679.55"/>
+<polygon fill="black" stroke="black" points="732.65,-682.86 740.82,-676.11 730.22,-676.3 732.65,-682.86"/>
+<text xml:space="preserve" text-anchor="middle" x="677.8" y="-724.21" font-family="Arial" font-size="8.00">(1,N)</text>
+</g>
+<!-- Tiempo -->
+<g id="node5" class="node">
+<title>Tiempo</title>
+<polygon fill="lightgreen" stroke="black" points="646.91,-468 592.91,-468 592.91,-432 646.91,-432 646.91,-468"/>
+<text xml:space="preserve" text-anchor="middle" x="619.91" y="-447" font-family="Arial" font-size="10.00">Tiempo</text>
+</g>
+<!-- T_id -->
+<g id="node22" class="node">
+<title>T_id</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-612" rx="35.7" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-609" font-family="Arial" font-size="10.00">id_tiempo</text>
+</g>
+<!-- Tiempo&#45;&gt;T_id -->
+<g id="edge16" class="edge">
+<title>Tiempo-&gt;T_id</title>
+<path fill="none" stroke="black" d="M627.74,-468.4C639.31,-497.18 665.4,-552.87 704.69,-585 713.27,-592.02 723.85,-597.32 734.25,-601.27"/>
+<polygon fill="black" stroke="black" points="732.92,-604.51 743.51,-604.44 735.18,-597.89 732.92,-604.51"/>
+</g>
+<!-- T_fecha -->
+<g id="node23" class="node">
+<title>T_fecha</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-558" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-555" font-family="Arial" font-size="10.00">fecha</text>
+</g>
+<!-- Tiempo&#45;&gt;T_fecha -->
+<g id="edge17" class="edge">
+<title>Tiempo-&gt;T_fecha</title>
+<path fill="none" stroke="black" d="M635.86,-468.35C651.42,-486.42 677.3,-513.75 704.69,-531 716.02,-538.14 729.52,-543.81 741.79,-548.07"/>
+<polygon fill="black" stroke="black" points="740.59,-551.36 751.18,-551.12 742.75,-544.7 740.59,-551.36"/>
+</g>
+<!-- T_hora -->
+<g id="node24" class="node">
+<title>T_hora</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-504" rx="33.02" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-501" font-family="Arial" font-size="10.00">hora_utc</text>
+</g>
+<!-- Tiempo&#45;&gt;T_hora -->
+<g id="edge18" class="edge">
+<title>Tiempo-&gt;T_hora</title>
+<path fill="none" stroke="black" d="M647.09,-459.04C672.2,-467.71 710.4,-480.89 738.95,-490.75"/>
+<polygon fill="black" stroke="black" points="737.73,-494.03 748.32,-493.98 740.01,-487.41 737.73,-494.03"/>
+</g>
+<!-- T_anio -->
+<g id="node25" class="node">
+<title>T_anio</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-450" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-447" font-family="Arial" font-size="10.00">anio</text>
+</g>
+<!-- Tiempo&#45;&gt;T_anio -->
+<g id="edge19" class="edge">
+<title>Tiempo-&gt;T_anio</title>
+<path fill="none" stroke="black" d="M647.09,-450C672.47,-450 711.23,-450 739.87,-450"/>
+<polygon fill="black" stroke="black" points="739.55,-453.5 749.55,-450 739.55,-446.5 739.55,-453.5"/>
+</g>
+<!-- T_mes -->
+<g id="node26" class="node">
+<title>T_mes</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-396" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-393" font-family="Arial" font-size="10.00">mes</text>
+</g>
+<!-- Tiempo&#45;&gt;T_mes -->
+<g id="edge20" class="edge">
+<title>Tiempo-&gt;T_mes</title>
+<path fill="none" stroke="black" d="M647.09,-440.96C673.43,-431.87 714.17,-417.81 743.06,-407.83"/>
+<polygon fill="black" stroke="black" points="744.14,-411.16 752.45,-404.59 741.86,-404.54 744.14,-411.16"/>
+</g>
+<!-- T_dia -->
+<g id="node27" class="node">
+<title>T_dia</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-342" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-339" font-family="Arial" font-size="10.00">dia</text>
+</g>
+<!-- Tiempo&#45;&gt;T_dia -->
+<g id="edge21" class="edge">
+<title>Tiempo-&gt;T_dia</title>
+<path fill="none" stroke="black" d="M635.86,-431.65C651.42,-413.58 677.3,-386.25 704.69,-369 716.02,-361.86 729.52,-356.19 741.79,-351.93"/>
+<polygon fill="black" stroke="black" points="742.75,-355.3 751.18,-348.88 740.59,-348.64 742.75,-355.3"/>
+</g>
+<!-- Magnitud -->
+<g id="node6" class="node">
+<title>Magnitud</title>
+<polygon fill="lightgreen" stroke="black" points="648.48,-257 591.34,-257 591.34,-221 648.48,-221 648.48,-257"/>
+<text xml:space="preserve" text-anchor="middle" x="619.91" y="-236" font-family="Arial" font-size="10.00">Magnitud</text>
+</g>
+<!-- M_id -->
+<g id="node28" class="node">
+<title>M_id</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-288" rx="42.38" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-285" font-family="Arial" font-size="10.00">id_magnitud</text>
+</g>
+<!-- Magnitud&#45;&gt;M_id -->
+<g id="edge22" class="edge">
+<title>Magnitud-&gt;M_id</title>
+<path fill="none" stroke="black" d="M648.87,-247.76C672.12,-255.04 705.64,-265.54 732.61,-273.99"/>
+<polygon fill="black" stroke="black" points="731.31,-277.25 741.9,-276.9 733.4,-270.57 731.31,-277.25"/>
+</g>
+<!-- M_val -->
+<g id="node29" class="node">
+<title>M_val</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-234" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-231" font-family="Arial" font-size="10.00">valor</text>
+</g>
+<!-- Magnitud&#45;&gt;M_val -->
+<g id="edge23" class="edge">
+<title>Magnitud-&gt;M_val</title>
+<path fill="none" stroke="black" d="M648.87,-238.11C674.17,-237.3 711.63,-236.1 739.58,-235.21"/>
+<polygon fill="black" stroke="black" points="739.52,-238.71 749.4,-234.89 739.3,-231.71 739.52,-238.71"/>
+</g>
+<!-- M_esc -->
+<g id="node30" class="node">
+<title>M_esc</title>
+<ellipse fill="none" stroke="black" cx="778.34" cy="-180" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="778.34" y="-177" font-family="Arial" font-size="10.00">escala</text>
+</g>
+<!-- Magnitud&#45;&gt;M_esc -->
+<g id="edge24" class="edge">
+<title>Magnitud-&gt;M_esc</title>
+<path fill="none" stroke="black" d="M648.81,-228.27C665.09,-222.03 686.04,-214.03 704.69,-207 717.31,-202.24 731.2,-197.07 743.42,-192.53"/>
+<polygon fill="black" stroke="black" points="744.51,-195.86 752.67,-189.11 742.07,-189.3 744.51,-195.86"/>
+</g>
+<!-- Poblacion -->
+<g id="node7" class="node">
+<title>Poblacion</title>
+<polygon fill="lightgreen" stroke="black" points="964.63,-948 904.71,-948 904.71,-912 964.63,-912 964.63,-948"/>
+<text xml:space="preserve" text-anchor="middle" x="934.67" y="-927" font-family="Arial" font-size="10.00">Poblacion</text>
+</g>
+<!-- P_id -->
+<g id="node31" class="node">
+<title>P_id</title>
+<ellipse fill="none" stroke="black" cx="1067.69" cy="-1011" rx="43.39" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1067.69" y="-1008" font-family="Arial" font-size="10.00">id_poblacion</text>
+</g>
+<!-- Poblacion&#45;&gt;P_id -->
+<g id="edge25" class="edge">
+<title>Poblacion-&gt;P_id</title>
+<path fill="none" stroke="black" d="M955.12,-948.4C967.76,-959.69 984.97,-973.86 1001.9,-984 1008.58,-987.99 1015.95,-991.68 1023.26,-994.95"/>
+<polygon fill="black" stroke="black" points="1021.87,-998.16 1032.44,-998.86 1024.61,-991.72 1021.87,-998.16"/>
+</g>
+<!-- P_total -->
+<g id="node32" class="node">
+<title>P_total</title>
+<ellipse fill="none" stroke="black" cx="1067.69" cy="-957" rx="50.08" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1067.69" y="-954" font-family="Arial" font-size="10.00">poblacion_total</text>
+</g>
+<!-- Poblacion&#45;&gt;P_total -->
+<g id="edge26" class="edge">
+<title>Poblacion-&gt;P_total</title>
+<path fill="none" stroke="black" d="M965.07,-936.06C979.05,-938.94 996.21,-942.48 1012.43,-945.82"/>
+<polygon fill="black" stroke="black" points="1011.47,-949.19 1021.97,-947.79 1012.89,-942.34 1011.47,-949.19"/>
+</g>
+<!-- P_fem -->
+<g id="node33" class="node">
+<title>P_fem</title>
+<ellipse fill="none" stroke="black" cx="1067.69" cy="-903" rx="63.45" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1067.69" y="-900" font-family="Arial" font-size="10.00">poblacion_femenina</text>
+</g>
+<!-- Poblacion&#45;&gt;P_fem -->
+<g id="edge27" class="edge">
+<title>Poblacion-&gt;P_fem</title>
+<path fill="none" stroke="black" d="M965.07,-923.94C976.8,-921.52 990.77,-918.64 1004.55,-915.81"/>
+<polygon fill="black" stroke="black" points="1004.93,-919.3 1014.02,-913.85 1003.52,-912.44 1004.93,-919.3"/>
+</g>
+<!-- P_mas -->
+<g id="node34" class="node">
+<title>P_mas</title>
+<ellipse fill="none" stroke="black" cx="1067.69" cy="-849" rx="65.78" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1067.69" y="-846" font-family="Arial" font-size="10.00">poblacion_masculina</text>
+</g>
+<!-- Poblacion&#45;&gt;P_mas -->
+<g id="edge28" class="edge">
+<title>Poblacion-&gt;P_mas</title>
+<path fill="none" stroke="black" d="M955.12,-911.6C967.76,-900.31 984.97,-886.14 1001.9,-876 1006.5,-873.25 1011.42,-870.65 1016.43,-868.23"/>
+<polygon fill="black" stroke="black" points="1017.73,-871.48 1025.37,-864.14 1014.82,-865.11 1017.73,-871.48"/>
+</g>
+<!-- Economia -->
+<g id="node8" class="node">
+<title>Economia</title>
+<polygon fill="lightgreen" stroke="black" points="964.9,-684 904.44,-684 904.44,-648 964.9,-648 964.9,-684"/>
+<text xml:space="preserve" text-anchor="middle" x="934.67" y="-663" font-family="Arial" font-size="10.00">Economia</text>
+</g>
+<!-- E_id -->
+<g id="node35" class="node">
+<title>E_id</title>
+<ellipse fill="none" stroke="black" cx="1067.69" cy="-747" rx="43.72" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1067.69" y="-744" font-family="Arial" font-size="10.00">id_economia</text>
+</g>
+<!-- Economia&#45;&gt;E_id -->
+<g id="edge29" class="edge">
+<title>Economia-&gt;E_id</title>
+<path fill="none" stroke="black" d="M955.12,-684.4C967.76,-695.69 984.97,-709.86 1001.9,-720 1008.51,-723.95 1015.79,-727.6 1023.03,-730.85"/>
+<polygon fill="black" stroke="black" points="1021.54,-734.02 1032.11,-734.72 1024.28,-727.58 1021.54,-734.02"/>
+</g>
+<!-- E_prod -->
+<g id="node36" class="node">
+<title>E_prod</title>
+<ellipse fill="none" stroke="black" cx="1067.69" cy="-693" rx="56.09" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1067.69" y="-690" font-family="Arial" font-size="10.00">produccion_bruta</text>
+</g>
+<!-- Economia&#45;&gt;E_prod -->
+<g id="edge30" class="edge">
+<title>Economia-&gt;E_prod</title>
+<path fill="none" stroke="black" d="M965.4,-672.13C978.15,-674.76 993.52,-677.92 1008.38,-680.98"/>
+<polygon fill="black" stroke="black" points="1007.62,-684.4 1018.12,-682.99 1009.03,-677.54 1007.62,-684.4"/>
+</g>
+<!-- E_ins -->
+<g id="node37" class="node">
+<title>E_ins</title>
+<ellipse fill="none" stroke="black" cx="1067.69" cy="-639" rx="32.01" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1067.69" y="-636" font-family="Arial" font-size="10.00">insumos</text>
+</g>
+<!-- Economia&#45;&gt;E_ins -->
+<g id="edge31" class="edge">
+<title>Economia-&gt;E_ins</title>
+<path fill="none" stroke="black" d="M965.4,-659.87C983.32,-656.18 1006.4,-651.42 1026,-647.38"/>
+<polygon fill="black" stroke="black" points="1026.5,-650.85 1035.59,-645.41 1025.09,-644 1026.5,-650.85"/>
+</g>
+<!-- E_val -->
+<g id="node38" class="node">
+<title>E_val</title>
+<ellipse fill="none" stroke="black" cx="1067.69" cy="-585" rx="51.41" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1067.69" y="-582" font-family="Arial" font-size="10.00">valor_agregado</text>
+</g>
+<!-- Economia&#45;&gt;E_val -->
+<g id="edge32" class="edge">
+<title>Economia-&gt;E_val</title>
+<path fill="none" stroke="black" d="M955.12,-647.6C967.76,-636.31 984.97,-622.14 1001.9,-612 1007.8,-608.47 1014.25,-605.18 1020.72,-602.2"/>
+<polygon fill="black" stroke="black" points="1021.67,-605.61 1029.43,-598.39 1018.87,-599.19 1021.67,-605.61"/>
+</g>
+<!-- Esp&#45;&gt;Sismo -->
+<g id="edge2" class="edge">
+<title>Esp-&gt;Sismo</title>
+<path fill="none" stroke="black" d="M160.44,-202.71C175.55,-257.5 226.09,-440.65 245.95,-512.61"/>
+<polygon fill="black" stroke="black" points="242.53,-513.39 248.57,-522.09 249.28,-511.52 242.53,-513.39"/>
+</g>
+<!-- Esp&#45;&gt;Replica -->
+<g id="edge3" class="edge">
+<title>Esp-&gt;Replica</title>
+<path fill="none" stroke="black" d="M184.01,-183.32C262.35,-173 484.6,-143.7 577.4,-131.47"/>
+<polygon fill="black" stroke="black" points="577.62,-134.97 587.07,-130.2 576.7,-128.03 577.62,-134.97"/>
+</g>
+<!-- R_ocurre&#45;&gt;Ubicacion -->
+<g id="edge34" class="edge">
+<title>R_ocurre-&gt;Ubicacion</title>
+<path fill="none" stroke="black" d="M440.82,-494.98C453.93,-499.09 468.52,-505.42 479.36,-515 553.52,-580.53 594.8,-695.14 610.91,-748.77"/>
+<polygon fill="black" stroke="black" points="607.47,-749.47 613.63,-758.09 614.19,-747.51 607.47,-749.47"/>
+<text xml:space="preserve" text-anchor="middle" x="534.13" y="-640.87" font-family="Arial" font-size="8.00">(1,1)</text>
+</g>
+<!-- R_registra&#45;&gt;Tiempo -->
+<g id="edge36" class="edge">
+<title>R_registra-&gt;Tiempo</title>
+<path fill="none" stroke="black" d="M460.59,-437.96C498.02,-440.8 547.64,-444.58 581.29,-447.14"/>
+<polygon fill="black" stroke="black" points="580.73,-450.61 590.96,-447.87 581.26,-443.63 580.73,-450.61"/>
+<text xml:space="preserve" text-anchor="middle" x="534.13" y="-448.53" font-family="Arial" font-size="8.00">(1,1)</text>
+</g>
+<!-- R_tiene&#45;&gt;Magnitud -->
+<g id="edge38" class="edge">
+<title>R_tiene-&gt;Magnitud</title>
+<path fill="none" stroke="black" d="M433.33,-347.95C465.62,-331.95 523.6,-302.27 570.91,-273 575.55,-270.13 580.34,-266.97 585.03,-263.78"/>
+<polygon fill="black" stroke="black" points="586.95,-266.7 593.15,-258.11 582.95,-260.96 586.95,-266.7"/>
+<text xml:space="preserve" text-anchor="middle" x="534.13" y="-315.54" font-family="Arial" font-size="8.00">(1,N)</text>
+</g>
+<!-- R_habita&#45;&gt;Poblacion -->
+<g id="edge40" class="edge">
+<title>R_habita-&gt;Poblacion</title>
+<path fill="none" stroke="black" d="M806.24,-724.66C821.26,-728.47 839.43,-735.22 851.99,-747 896.93,-789.15 918.78,-860.56 927.98,-900.58"/>
+<polygon fill="black" stroke="black" points="924.53,-901.18 930.07,-910.21 931.37,-899.69 924.53,-901.18"/>
+<text xml:space="preserve" text-anchor="middle" x="878.21" y="-791.83" font-family="Arial" font-size="8.00">(1,1)</text>
+</g>
+<!-- R_economia&#45;&gt;Economia -->
+<g id="edge42" class="edge">
+<title>R_economia-&gt;Economia</title>
+<path fill="none" stroke="black" d="M853.79,-666C867.2,-666 880.73,-666 892.73,-666"/>
+<polygon fill="black" stroke="black" points="892.66,-669.5 902.66,-666 892.66,-662.5 892.66,-669.5"/>
+<text xml:space="preserve" text-anchor="middle" x="878.21" y="-668.4" font-family="Arial" font-size="8.00">(1,1)</text>
+</g>
+<!-- R_genera&#45;&gt;Replica -->
+<g id="edge44" class="edge">
+<title>R_genera-&gt;Replica</title>
+<path fill="none" stroke="black" d="M432.62,-257.82C466.17,-246.93 527.8,-223.77 570.91,-189 581.75,-180.25 591.53,-168.56 599.39,-157.63"/>
+<polygon fill="black" stroke="black" points="602.16,-159.78 604.92,-149.55 596.38,-155.82 602.16,-159.78"/>
+<text xml:space="preserve" text-anchor="middle" x="534.13" y="-234" font-family="Arial" font-size="8.00">(1,1)</text>
+</g>
+<!-- R_afecta&#45;&gt;Poblacion -->
+<g id="edge46" class="edge">
+<title>R_afecta-&gt;Poblacion</title>
+<path fill="none" stroke="black" d="M554.24,-926.46C603.81,-947.27 740.46,-997.42 851.99,-971 866.73,-967.51 881.84,-960.92 894.99,-954.03"/>
+<polygon fill="black" stroke="black" points="896.66,-957.1 903.74,-949.22 893.29,-950.96 896.66,-957.1"/>
+<text xml:space="preserve" text-anchor="middle" x="677.8" y="-969.75" font-family="Arial" font-size="8.00">(0,N)</text>
+</g>
+</g>
+</svg>
