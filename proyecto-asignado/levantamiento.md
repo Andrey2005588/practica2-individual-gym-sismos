@@ -21,14 +21,10 @@
 
 ## Errores y soluciones
 - Advertencia: "version is obsolete". No es error.
-- Error 403 Forbidden en http://localhost. 
-  Solución: no hay index.php; se debe acceder a http://localhost/sismos.php
-- Error "Is a directory" en la carga SQL. 
-  Solución: la clonación anterior estaba corrupta; se re clonó el repositorio.
-- Error: puerto 5432 ocupado. 
-  Solución: Docker expone PostgreSQL en 5433.
-- Error: la clonación inicial estaba corrupta (archivos SQL como carpetas). 
-  Solución: se eliminó y se volvió a clonar en una ruta corta.
+- Error 403 Forbidden en http://localhost. Solución: no hay index.php; se debe acceder a http://localhost/sismos.php
+- Error "Is a directory" en la carga SQL. Solución: la clonación anterior estaba corrupta; se re clonó el repositorio.
+- Error: puerto 5432 ocupado. Solución: Docker expone PostgreSQL en 5433.
+- Error: la clonación inicial estaba corrupta (archivos SQL como carpetas). Solución: se eliminó y se volvió a clonar en una ruta corta.
 
 ## Evidencias
 - captura_terminal.png
